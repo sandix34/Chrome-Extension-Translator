@@ -2,7 +2,7 @@
   "name": "Translator",
   "version": "0.1.0",
   "manifest_version": 2,
-  "permissions": ["activeTab", "storage", "declarativeContent", "<all_urls>"],
+  "permissions": ["activeTab", "storage", "declarativeContent", "<all_urls>", "tabs"],
   "background": {
     "scripts": ["content.js"],
     "persistent": false
